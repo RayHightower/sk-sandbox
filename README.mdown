@@ -1,1 +1,1 @@
-Experimenting with SpriteKit
+Experimenting with Sprite Kit
