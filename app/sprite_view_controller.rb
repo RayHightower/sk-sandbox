@@ -1,10 +1,10 @@
-class SpriteViewController < UIViewController
+class SpriteViewController < SKView
 
   def viewDidLoad
-    spriteView = SKView.alloc.init
-    spriteView.showsDrawCount = YES
-    spriteView.showsNodeCount = YES
-    spriteView.showsFPS = YES
+    spriteView = SpriteViewController.alloc.init
+    spriteView.showsDrawCount = true
+    spriteView.showsNodeCount = true
+    spriteView.showsFPS = true
   end
 
 #  def loadView
